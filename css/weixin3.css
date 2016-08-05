@@ -1,0 +1,215 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: 微软雅黑;
+}
+a{
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+.header {
+  width: 100%;
+  height: 0.72rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: #393a3f;
+}
+
+.header h1 {
+  width: 0.55rem;
+  padding: 0 0.22rem;
+  line-height: 0.72rem;
+  font-size: 0.26rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.header .more, .header .search {
+  width: 0.3rem;
+  height: 0.3rem;
+  position: absolute;
+  top: 0.21rem;
+}
+
+.header .more {
+  right: 0.38rem;
+  background: url("../images/Screenshot_2016-07-27-13-56-23_05.png") no-repeat;
+  background-size: 100%;
+}
+
+.header .search {
+  right: 1.28rem;
+  background: url("../images/Screenshot_2016-07-27-13-56-23_03.png") no-repeat;
+  background-size: 100%;
+}
+
+.list {
+  width: 100%;
+  overflow-y: auto;
+  padding-top: 0.72rem;
+  padding-bottom: 0.82rem;
+}
+
+.list li {
+  height: 0.92rem;
+}
+
+.list li .lists {
+  margin: 0 0.2rem;
+  height: 0.92rem;
+  border-bottom: 1px solid #d9d9d9;
+  position: relative;
+}
+
+.list li .lists .tp {
+  float: left;
+  width: 0.72rem;
+  height: 0.72rem;
+  margin-top: 0.1rem;
+  margin-right: 0.2rem;
+}
+
+.list li .lists .one {
+  background: url("../images/images/Screenshot_2016-07-27-23-47-18_03.png");
+  background-size: 100%;
+}
+
+.list li .lists .two {
+  background: url("../images/images/Screenshot_2016-07-27-23-47-18_06.png");
+  background-size: 100%;
+}
+
+.list li .lists .three {
+  background: url("../images/images/Screenshot_2016-07-27-23-47-18_08.png");
+  background-size: 100%;
+}
+
+.list li .lists .fore {
+  background: url("../images/images/Screenshot_2016-07-27-23-47-18_10.png");
+  background-size: 100%;
+}
+
+.list li .lists h3 {
+  font-size: 0.24rem;
+  color: #353535;
+  line-height: 0.92rem;
+  font-weight: 600;
+}
+
+.Navbar {
+  width: 100%;
+  height: 0.82rem;
+  background: #fcfcfc;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #d6d6d6;
+}
+
+.Navbar ul {
+  width: 4rem;
+  height: 0.62rem;
+  margin: 0.1rem 0.4rem;
+  text-align: justify;
+}
+
+.Navbar ul::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+}
+
+.Navbar ul li {
+  display: inline-block;
+  position: relative;
+  width: 0.6rem;
+  height: 0.62rem;
+  vertical-align: top;
+  font-size: 0.18rem;
+  color: #999999;
+}
+
+.Navbar ul li span {
+  width: 0.6rem;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.Navbar ul li div {
+  width: 0.4rem;
+  height: 0.62rem;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.Navbar ul li .wechat {
+  background: url("../images/Screenshot_2016-07-27-13-56-23_05_07.png") no-repeat;
+  background-size: 100%;
+}
+
+.Navbar ul li .tongxunlu {
+  background: url("../images/Screenshot_2016-07-27-13-56-23_24.png") no-repeat;
+  background-size: 100%;
+}
+
+.Navbar ul li .find {
+  background: url("../images/Screenshot_2016-07-27-23-46-51_06_03.png") no-repeat;
+  background-size: 100%;
+}
+
+.Navbar ul li .me {
+  background: url("../images/Screenshot_2016-07-27-13-56-23_29.png") no-repeat;
+  background-size: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 166.66667px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 160px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 86.25px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 85.83333px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 78.125px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 75px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 66.66667px;
+  }
+}
